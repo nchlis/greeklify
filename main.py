@@ -6,13 +6,9 @@ Created on Sat Jun 19 15:58:01 2021
 @author: nikos
 """
 
-
-from itertools import chain
-import shutil
 import os
 import pandas as pd
 import glob
-import numpy as np
 
 def greeklify_str(str_in):
     str_out = []
